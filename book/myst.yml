@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 80b6993c-4aaa-46c1-a8f6-99c22fe9c015
+  title: "Halfway to I2K 2025: OME-ZARR basics"
+  # description:
+  # keywords: []
+  authors:
+    - name: Johannes Soltwedel
+      github: jo-mueller
+      orcid: 0000-0003-1273-2412
+      affiliation: "German BioImaging e.V."
+      email:
+  github: https://github.com/jo-mueller/halfway-to-i2k-2025-ome-zarr-tutorial
+toc: 
+  - file: index
+  - file: 01_create_ome_zarr
+  - file: 02_upload_to_s3
+  - file: 03_view_from_web
+site:
+  template: "https://github.com/myst-templates/book-theme/archive/de4c1e9c09c6cd12fc529c1f22e8abf8e7f35381.zip"
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
