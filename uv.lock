@@ -1073,6 +1073,7 @@ dependencies = [
     { name = "jupyter-book" },
     { name = "minio" },
     { name = "napari" },
+    { name = "napari-ome-zarr" },
     { name = "ngff-zarr" },
     { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
     { name = "numpy", version = "2.3.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
@@ -1087,6 +1088,7 @@ requires-dist = [
     { name = "jupyter-book", specifier = ">=2.0.0a0" },
     { name = "minio", specifier = ">=7.2.18" },
     { name = "napari", specifier = ">=0.6.6" },
+    { name = "napari-ome-zarr", specifier = ">=0.6.1" },
     { name = "ngff-zarr", specifier = ">=0.18.0" },
     { name = "numpy", specifier = ">=2.0.0" },
     { name = "ome-zarr", specifier = ">=0.10.2" },
@@ -2092,6 +2094,24 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/5a/03/6e1fcd9aa9ac4746ce2b44050ea8f7192d883f4d3da4e7ff08589ac3ad3b/napari_console-0.1.4.tar.gz", hash = "sha256:e185e4d36d8171ae23ca383dc69c38df76592a984d6c99ad08372d188a1fbb9b", size = 20152, upload-time = "2025-10-15T14:24:18.456Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/01/72/2067f28fd0ae87978f3b61e8ec30c1d085bbed03f64eb58e43949d526b3a/napari_console-0.1.4-py3-none-any.whl", hash = "sha256:565df1fa15db579552af9e9d9d3883067c00191be282ad47d80f9b0d50b4e5ad", size = 9786, upload-time = "2025-10-15T14:24:17.677Z" },
+]
+
+[[package]]
+name = "napari-ome-zarr"
+version = "0.6.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "napari" },
+    { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
+    { name = "numpy", version = "2.3.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
+    { name = "ome-zarr", version = "0.10.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version <= '3.10'" },
+    { name = "ome-zarr", version = "0.11.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version > '3.10' and python_full_version < '3.11'" },
+    { name = "ome-zarr", version = "0.12.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
+    { name = "vispy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/67/50/630bff98a60e71fad6a1e9a5cee3df7a043c88668ff752dacedbf0d987d1/napari_ome_zarr-0.6.1.tar.gz", hash = "sha256:3d3054823c2adaa4d2bf370c46adcc4a54192cfec3bbbe98d144e50b95bd6f89", size = 21099, upload-time = "2024-07-15T10:15:07.706Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0d/81/8088d4d695ff7b93af4b1224448ec3270990c37d4e77bdb454c0078384e7/napari_ome_zarr-0.6.1-py3-none-any.whl", hash = "sha256:5b8ff2ef448c179a63261e240b8a1dcc92f79afe67aea4d9ecd14f8bccff7585", size = 9021, upload-time = "2024-07-15T10:15:06.384Z" },
 ]
 
 [[package]]

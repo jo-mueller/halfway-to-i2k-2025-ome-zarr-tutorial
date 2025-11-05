@@ -1,4 +1,5 @@
 # Halfway to I2K 2025: OME-ZARR basics
+(tutorial:main)=
 
 Welcome to the guide pages for the OME-ZARR basics workshop.
 To prepare for the course, please follow the instructions below.
