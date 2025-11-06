@@ -14,5 +14,7 @@ dependencies = [
     "napari>=0.6.6",
     "minio>=7.2.18",
     "napari-ome-zarr>=0.6.1",
+    "bioio>=3.0.0",
+    "bioio-ome-zarr>=1.2.0",
     "PyQt5",
 ]
