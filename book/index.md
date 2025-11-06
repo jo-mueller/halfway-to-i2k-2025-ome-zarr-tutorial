@@ -7,11 +7,8 @@ To prepare for the course, please follow the instructions below.
 ## Installation
 
 If you haven't already installed Python on your device, 
-please do so by following these instructions 
+please do so by following the [instructions](https://github.com/conda-forge/miniforge?tab=readme-ov-file#requirements-and-installers)
 for your respective platform.
-
-- [Windows](https://github.com/conda-forge/miniforge?tab=readme-ov-file#windows)
-- [MacOS or Linux](https://github.com/conda-forge/miniforge?tab=readme-ov-file#unix-like-platforms-macos-linux--wsl)
 
 Next, we are going to create a separate Python environment for the stuff we need in this course.
 To do so, install [uv](https://docs.astral.sh/uv/), which is our package manager of choice for this course:
@@ -50,7 +47,7 @@ source .venv/bin/activate
 Lastly, install everything needed for the workshop:
 
 ```bash
-uv pip sync
+uv pip install -e .
 ```
 
 That's it - you're good to go!
