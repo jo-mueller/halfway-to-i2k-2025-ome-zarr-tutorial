@@ -17,4 +17,5 @@ dependencies = [
     "bioio>=3.0.0",
     "bioio-ome-zarr>=1.2.0",
     "PyQt5",
+    "matplotlib>=3.10.7",
 ]

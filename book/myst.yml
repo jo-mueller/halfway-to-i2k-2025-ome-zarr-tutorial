@@ -17,6 +17,7 @@ toc:
   - file: 01_create_ome_zarr
   - file: 02_upload_to_s3
   - file: 03_view_from_web
+  - file: 04_work_with_remote_images
 site:
   template: "https://github.com/myst-templates/book-theme/archive/de4c1e9c09c6cd12fc529c1f22e8abf8e7f35381.zip"
   # options:
