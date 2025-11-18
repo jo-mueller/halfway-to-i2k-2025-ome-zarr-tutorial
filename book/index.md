@@ -50,6 +50,12 @@ Lastly, install everything needed for the workshop:
 uv pip install -e .
 ```
 
+Open Jupyter lab to interact with the provided notebooks like this:
+
+```bash
+jupyter lab
+```
+
 That's it - you're good to go!
 
 ## Contents
