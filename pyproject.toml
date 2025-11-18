@@ -16,6 +16,7 @@ dependencies = [
     "napari-ome-zarr>=0.6.1",
     "bioio>=3.0.0",
     "bioio-ome-zarr>=1.2.0",
-    "PyQt5",
     "matplotlib>=3.10.7",
+    "jupyterlab>=4.4.10",
+    "PyQt5",
 ]
