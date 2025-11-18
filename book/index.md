@@ -4,6 +4,8 @@
 Welcome to the guide pages for the OME-ZARR basics workshop.
 To prepare for the course, please follow the instructions below.
 
+[Link to Slides](https://zenodo.org/records/17639350)
+
 ## Installation
 
 If you haven't already installed Python on your device, 
